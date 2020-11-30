@@ -1,0 +1,19 @@
+#acerca {
+  min-height: 100vh;
+}
+.logo {
+  height: 2.6em;
+}
+.certificate-logo {
+  width: 2.6em;
+}
+.herramientas p {
+  font-weight: 400;
+}
+li {
+  margin-bottom: 1.2em;
+}
+#acerca a {
+  text-decoration: underline;
+  color: #575757;
+}

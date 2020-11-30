@@ -1,0 +1,58 @@
+#contacto {
+  background: #1b242f;
+  color: #dddddd;
+  min-height: 75vh;
+}
+#contacto h2 {
+  color: #dddddd;
+}
+#contacto h2:after {
+  display: block;
+  height: 4px;
+  background-color: #dddddd;
+  content: ' ';
+  width: 130px;
+  margin: 10px auto;
+  margin-bottom: 0.6em;
+}
+.form-control {
+  border-radius: 1px !important;
+}
+.contact-button {
+  padding: 10px 30px;
+  border: 1.5px solid #ffffff;
+  background: none;
+  color: inherit;
+}
+.contact-button:hover {
+  background: #06d4db;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1.5px solid #06d4db;
+}
+.contact-icon {
+  background: #262f38;
+  cursor: pointer;
+  font-size: 1.6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  margin: 0 15px;
+  width: 2.2em;
+}
+.contact-icon:hover {
+  background: #06d4db;
+  transition: 0.3s;
+  border: 2px solid #24303f;
+}
+.contact-icon:hover i {
+  transition: 0.5s;
+  transform: rotateY(360deg);
+}
+
+.success {
+  border: 1px solid #007749;
+  background: #06d4db;
+  color: #000;
+}
